@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+src/node_modules/
+package-lock.json
+src/package-lock.json
+
+# Build outputs
+dist/
+src/dist/
+target/
+src-tauri/target/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Tauri
+src-tauri/gen/
+src-tauri/.vercel
+
+# Generated files
+*.local
+.git/
+
+# Temporary files
+*.tmp
+.cache/
