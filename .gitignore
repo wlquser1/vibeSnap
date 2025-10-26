@@ -45,3 +45,4 @@ src-tauri/.vercel
 # Temporary files
 *.tmp
 .cache/
+
